@@ -9,12 +9,12 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
-  background-color: #24252a;
+  /* background-color: #24252a; */
   
 }
 .navbar{
-  position: fixed;;
-}
+  position: fixed;
+  
 .logo {
   cursor: pointer;
   }
