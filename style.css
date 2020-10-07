@@ -68,13 +68,13 @@ color: white;
     /* color: white; */
 }
 .background{
-    background: rgba(0, 0, 0, 0.829) url('../img/bg.jpg');
+    background: rgba(0, 0, 0, 0.829) url('corona-back.jpg');
     background-size: 2000px;
     background-blend-mode: darken;
 }
 
 .firstsection{
-    height: 100vh;
+    height: 50vh;
 }
 .box-main{
     display: flex;
