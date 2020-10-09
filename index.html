@@ -6,37 +6,31 @@
         <title>THEVIRUS.org</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
+        
         <link rel="stylesheet" href="style.css" class="rel">
     <link rel="stylesheet" href="responsive.css" class="rel">
 
         <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header class="navbar background "style="height: 70px ">
-            <a class="logo" href="/"><img src="logo.png" alt="logo" style="width:20%; "></a>
-            <nav>
-                <ul class="nav__links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#about">Services</a></li>
-                    <li><a href="#">Login</a></li>
-                    <li><a href="#">Signup</a></li>
-                    <li><a href="#">About</a></li>
-                </ul>
-            </nav>
-            <a class="cta" href="#contact">Contact</a>
-            <p class="menu cta">Menu</p>
-        </header>
-        <div class="overlay">
-            <a class="close">&times;</a>
-            <div class="overlay__content">
-                <a href="#">Home</a>
-                <a href="#">Services</a>
-                <a href="#">Login</a>
-                <a href="#">Signup</a>
-                <a href="#">About</a>
+        <nav class="navbar h-nav-resp" style="background: black;">
+            <ul class="nav-list v-class-resp">
+                <div class="logo"><img src="images/logo-1.png" alt="logo"></div>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">Services</a></li>
+                <li><a href="#blog">SignUp</a></li>
+                <li><a href="#blog">Login</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+            <div class="rightNav v-class-resp">
+                <a class="cta" href="#contact">Contact</a>
             </div>
-        </div>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>    
         <section class="background firstsection" style=" background: rgba(0, 0, 0, 0.829) url('corona-back.jpg');">
             <div class="box-main">
                 <div class="firstHalf">
@@ -119,6 +113,6 @@
             </p>
         </footer>
 
-        <script type="text/javascript" src="mobile.js"></script>
+        <script type="text/javascript" src="resp.js"></script>
     </body>
 </html>
