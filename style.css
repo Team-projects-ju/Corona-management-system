@@ -24,7 +24,7 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
-    position: sticky;
+    position: fixed;
     top: 0;
     cursor: pointer;
     
