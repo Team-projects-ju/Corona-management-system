@@ -1,3 +1,12 @@
+<?php
+session_start();
+if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
+{
+    header("location: index1.php");
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,15 +22,16 @@
   <nav class="navbar h-nav-resp" style="background: black; position: relative;">
     <ul class="nav-list v-class-resp">
         <div class="logo"><img src="logo.png" alt="logo"></div>
-        <li><a href="#">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#hospital">Hospital Booking</a></li>
         <li><a href="#Ambulance">Book an Ambulance</a></li>
-        <li><a href="#">Logout</a></li>    
+        <li><a href="logout.php">Logout</a></li>    
     </ul>
     <div class="rightNav v-class-resp">
-        <a class="cta" href="#contact">Contact</a>
-    </div>
+    <img src="https://img.icons8.com/metro/26/000000/guest-male.png"><font color="white"> <?php echo "Welcome, ". $_SESSION['username']?></font>
+    <div class="date"></div>
+  </div>
     <div class="burger">
         <div class="line"></div>
         <div class="line"></div>
@@ -95,6 +105,7 @@
   </section>
 </body>
 <script type="text/javascript" src="resp.js"></script>
+<script type="text/javascript" src="main.js"></script>
 </html>
 <script type="text/javascript">
 

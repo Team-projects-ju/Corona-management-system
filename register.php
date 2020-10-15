@@ -97,15 +97,15 @@ else{
     <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
 
     
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/style.css" class="rel">
-    <link rel="stylesheet" href="css/responsive.css" class="rel"> 
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css" class="rel">
+    <link rel="stylesheet" href="responsive.css" class="rel"> 
 
 </head>
 <body>
 
     <div class="main background ">
-
+    
         <!-- Sign up form -->
         
             <div class="container ">
@@ -151,11 +151,64 @@ else{
         
 
     </div>
-    <footer>
-        <b class="text-footer">
-            Copyright &copy; 2027 www.Be-Productive com - All rights reserved
-</b>
-    </footer>
+    <section>
+        <div class="main-content">
+            <div class="left box" style="background: black;
+            color: white;">
+              <h2 style="
+    color: white;
+">
+      About us</h2>
+      <div class="content">
+               <p style="
+    color: white;
+">
+      TheVirus.org is a service built just for the people so that people can get correct and authentic information at a single place in a hasslefree manner in this pandemic situation.</p>
+      <div class="social">
+                  <a href="https://facebook.com/"><span class="fab fa-facebook-f"></span></a>
+                  <a href="#"><span class=""></span></a>
+                  <a href="https://instagram.com/"></a><span class="fab fa-instagram"></span></a>
+                  <a href="https://youtube.com/c/"><span class="fab fa-youtube"></span></a>
+                </div>
+      </div>
+      </div>
+      <div class="center box" style="background: black;
+      color: white;">
+              <h2 style="
+    color: white;
+">
+      Address</h2>
+      <div class="content">
+                <div class="place">
+                  <span class="fas fa-map-marker-alt"></span>
+                  <span class="text">Jadavpur University, Kolkata</span>
+                </div>
+      <div class="phone">
+                  <span class="fas fa-phone-alt"></span>
+                  <span class="text">+91 9432067721</span>
+                </div>
+      <div class="email">
+                  <span class="fas fa-envelope"></span>
+                  <span class="text">khanradeeptansu@gmail.com</span>
+                </div>
+      </div>
+      </div>
+      <div class="right box" style="background: black;
+      color: white;">
+              <h2 style="
+    color: white;
+">Quick Links</h2>
+      <div class="content">
+        <li><a href="#">Home</a></li><br>
+        <li><a href="#about">Services</a></li><br>
+        <li><a href="#blog">SignUp</a></li><br>
+        <li><a href="#blog">Login</a></li><br>
+        <li><a href="#about">About</a></li><br>
+      </div>
+                
+                    
+      
+    </section>
     <!-- JS -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="js/main.js"></script>
