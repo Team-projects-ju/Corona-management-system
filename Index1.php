@@ -16,16 +16,16 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
     <link rel="stylesheet" type="text/css" href="Style1.css"/>
     <link rel="stylesheet" href="style.css" class="rel">
     <link rel="stylesheet" href="responsive.css" class="rel">
-    <title>Document</title>
+    <title>Welcome</title>
 </head>
 <body>
   <nav class="navbar h-nav-resp" style="background: black; position: relative;">
     <ul class="nav-list v-class-resp">
         <div class="logo"><img src="logo.png" alt="logo"></div>
         <li><a href="index.html">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#hospital">Hospital Booking</a></li>
-        <li><a href="#Ambulance">Book an Ambulance</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="patient.php">Nearby Hospitals</a></li>
+        <li><a href="ambulance.php">Book an Ambulance</a></li>
         <li><a href="logout.php">Logout</a></li>    
     </ul>
     <div class="rightNav v-class-resp">
@@ -94,10 +94,10 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
             <h2>Quick Links</h2>
     <div class="content">
       <li><a href="#">Home</a></li><br>
-      <li><a href="#hospital">Hospital Booking</a></li><br>
-      <li><a href="#ambulance">Book an Ambulance</a></li><br>
-      <li><a href="#blog">Logout</a></li><br>
-      <li><a href="#about">About</a></li><br>
+      <li><a href="patient.php">Nearby Hospitals</a></li><br>
+      <li><a href="ambulance.php">Book an Ambulance</a></li><br>
+      <li><a href="logout.php">Logout</a></li><br>
+      <li><a href="about.html">About</a></li><br>
     </div>
               
                   
